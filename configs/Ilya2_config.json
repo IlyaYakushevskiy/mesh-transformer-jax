@@ -40,7 +40,7 @@
   "ckpt_every": 500,
   "keep_every": 10000,
 
-  "name": "GPT3_6B_pile_rotary",
+  "name": "GPT3_6B_ilya2",
   "wandb_project": "mesh-transformer-jax",
   "comment": ""
 }
