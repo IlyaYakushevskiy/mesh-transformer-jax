@@ -14,8 +14,8 @@
 
   "warmup_steps": 3000,
   "anneal_steps": 300000,
-  "lr": 1e-5,
-  "end_lr": 5e-5,
+  "lr": 5e-5,
+  "end_lr": 1e-5,
   "weight_decay": 0.1,
   "total_steps": 350000,
 
@@ -24,7 +24,6 @@
   "bucket": "ilya2_bucket",
   "model_dir": "mesh_jax_pile_6B_rotary", 
 
-  f
 
   "eval_harness_tasks": [
     "lambada",
