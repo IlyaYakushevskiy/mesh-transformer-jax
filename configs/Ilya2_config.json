@@ -19,16 +19,12 @@
   "weight_decay": 0.1,
   "total_steps": 350000,
 
-  "tpu_size": 256,
+  "tpu_size": 8,
 
-  "bucket": "neo-models",
-  "model_dir": "mesh_jax_pile_6B_rotary",
+  "bucket": "ilya2_bucket",
+  "model_dir": "mesh_jax_pile_6B_rotary", 
 
-  "train_set": "pile.train.index",
-  "val_set": {
-    "pile": "pile.val.index",
-    "owt": "openwebtext2_new_inputs.val.index"
-  },
+  f
 
   "eval_harness_tasks": [
     "lambada",
